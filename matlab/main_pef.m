@@ -60,7 +60,8 @@ d3=q(end);
 delta = diff([d1,d2,d3]);
 
 hdelta=h.*delta;
-
+sumdelta=sum(delta);
+sumHdelta=sum(h.*delta);
 beta  = sum(h.*delta)/sum(delta);
 
 aFilt   = (h - beta)';

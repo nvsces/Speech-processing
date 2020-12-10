@@ -4,7 +4,7 @@ close all;
 [x1,fs]=audioread('mifasol.wav');
 x1=x1(:,1);
 
-  x1=x1(100001:105001);
+  x1=x1(100001:104097);
 
 
 
